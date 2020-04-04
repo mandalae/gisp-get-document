@@ -88,7 +88,7 @@ exports.handler = async (event) => {
                         console.log(`${userItem.email} has accessed document: ${documentToFetch}`);
                     }
                 } else {
-                    credentialError('No login hash found');
+                    // credentialError('No login hash found');
                 }
 
                 const params = {
